@@ -1,11 +1,11 @@
 {
   "functions": {
-    "dpnhs/*.php": {
+    "api/*.php": {
       "runtime": "vercel-php@0.7.2"
     }
   },
 
   "routes": [
-    { "src": "/(.*)", "dest": "/dpnhs/$1" }
+    { "src": "/(.*)", "dest": "/api/$1" }
   ]
 }
